@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+	float sal;
+	int da, hra, grss;
+
+	printf("Enter Your basic salary...\n");
+
+	scanf("%f", &sal);
+
+	da=(sal*40)/100;
+	printf("\nYour Dearness Allowance is %d.", da);
+
+	hra=(sal*20)/100;
+	printf("\nYour House Rent Allowance is %d.", hra);
+
+	grss=sal+da+hra;
+	printf("\nYour Gross Salary is %d.", grss);
+
+	return 0;
+
+}
